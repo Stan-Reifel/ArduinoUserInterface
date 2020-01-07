@@ -34,7 +34,7 @@
 #ifndef ArduinoUserInterface_h
 #define ArduinoUserInterface_h
 
-#include "arduino.h"
+#include "Arduino.h"
 #include <avr/pgmspace.h>
 
 
