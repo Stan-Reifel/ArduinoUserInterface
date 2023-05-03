@@ -1,0 +1,39 @@
+
+
+			Parts List for ArduinoUIShield
+			------------------------------
+
+
+
+Description	 ID		Digikey #		Notes
+----------------------------------------------------------------------------------
+
+ PCB							Custom
+ LCD 5110	 LCD1					ebay
+ 74HC4050	 U2		568-8150-1-ND		
+ 3.3K resistor	 R1		311-3.30KFRCT-ND	1206 SMD, 1/4W, 1%
+ 1.5K resistor	 R2		P1.50KFCT-ND		1206 SMD, 1/4W, 1%
+ 1.5K resistor	 R3		P1.50KFCT-ND		1206 SMD, 1/4W, 1%
+ 3.3K resistor	 R4		311-3.30KFRCT-ND	1206 SMD, 1/4W, 1%
+ 470 resistor	 R5		YAG3879CT-ND		1206 SMD, 1/4W, 1%
+ Uno header pins U1		S1212EC-40-ND		Extra long, very important
+ Red 1206 LED	 D13		404-1042-1-ND
+ Button		 SW1		450-1644-ND		Overall height above PCB 8.5mm
+ Button		 SW2		450-1644-ND		Overall height above PCB 8.5mm
+ Button		 SW3		450-1644-ND		Overall height above PCB 8.5mm
+ Button		 SW4		450-1644-ND		Overall height above PCB 8.5mm
+
+
+
+Notes: 
+  * All resistors are 1206 SMD, 1/4W, 1%
+  * The Nokia 5110 LCD displays are available from many suppliers, search for "Nokia 5110 LCD".
+    They display should be purchased already mounted on a carrier board, typically red.  Several 
+    version are sold with different pinouts. The "ArduinoUIShield" PCB requires the pin order  
+    from left to right be:
+
+		RST	CE	DC	DIN	CLK	VCC	LED	GND
+
+    The Nokia 5110 LCD boards sold at Spartkfun and Adafruit DO NOT have the correct pin order.
+    I purchased mine on ebay.com, searching for "Nokia 5110 LCD".  Then verifying the pin order
+    by looking at the vendor's pictures. 
